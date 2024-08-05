@@ -77,7 +77,7 @@ for i in range(5):
     time.sleep(5)
 
 # 抓取圖片
-imgs = driver.find_element(By.CLASS_NAME,'FFVAD')
+imgs = driver.find_elements(By.CLASS_NAME,'FFVAD')
 
 # 存放下載下來的圖片之資料夾
 path = os.path.join(keyword)
